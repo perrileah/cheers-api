@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  beer_id: 1
+  user_id: 1
+  rating: 1
+  image: MyString
+  comments: MyString
+
+two:
+  beer_id: 1
+  user_id: 1
+  rating: 1
+  image: MyString
+  comments: MyString
