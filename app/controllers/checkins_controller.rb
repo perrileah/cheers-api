@@ -12,11 +12,8 @@ class CheckinsController < ApplicationController
       image: params[:image],
       comments: params[:comments],
     )
-    # if @checkin.save
-    #   render :show
-    # else
-    #   render json: { errors: @checkin.errors.full_messages }
-    # end
+    
+    render :show
   end
 
   def show
