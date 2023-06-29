@@ -1,0 +1,14 @@
+GET http://localhost:3000/checkins.json 
+
+###
+
+POST http://localhost:3000/checkins.json 
+Content-Type: application/json
+
+{
+  "brewery_id": "145870",
+  "user_id": 2,
+  "rating": 5,
+  "image": "image_url",
+  "comments": "love this brewery"
+}
