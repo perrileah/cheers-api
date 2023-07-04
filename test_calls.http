@@ -10,5 +10,24 @@ Content-Type: application/json
   "user_id": 2,
   "rating": 5,
   "image": "image_url",
-  "comments": "love this brewery"
+  "comments": "such great beer!"
+}
+
+###
+
+PATCH http://localhost:3000/checkins/3.json 
+Content-Type: application/json
+
+{
+  "comments": "wasn't a fan of this brewery"
+}
+
+### 
+
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "leah@example.com",
+  "password": "password"
 }

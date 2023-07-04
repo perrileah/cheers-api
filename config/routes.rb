@@ -7,4 +7,8 @@ Rails.application.routes.draw do
   get "/checkins/:id" => "checkins#show"
   patch "/checkins/:id" => "checkins#update"
   delete "/checkins/:id" => "checkins#destroy"
+
+  post "/users" => "users#create"
+
+  post "/sessions" => "sessions#create"
 end
