@@ -1,3 +1,5 @@
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3LCJleHAiOjE2ODg1ODU3MDF9.kZHy9PJqXqMLngjpAamUJCPVjtxgeIKRcWuppWi-Vtc
+
 GET http://localhost:3000/checkins.json 
 
 ###
@@ -28,8 +30,8 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "leah@example.com",
-  "password": "password"
+  "email": "Blah@test.com",
+  "password": "test"
 }
 
 ###
@@ -39,7 +41,7 @@ Content-Type: application/json
 
 {
   "name": "Test",
-  "email": "Test@test.com",
+  "email": "Blah@test.com",
   "password": "test",
   "password_confirmation": "test"
 }
