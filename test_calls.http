@@ -31,3 +31,15 @@ Content-Type: application/json
   "email": "leah@example.com",
   "password": "password"
 }
+
+###
+
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "email": "Test@test.com",
+  "password": "test",
+  "password_confirmation": "test"
+}

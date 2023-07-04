@@ -1,4 +1,8 @@
 class UsersController < ApplicationController
+  def new
+    @user = User.new
+    render template: "users/new"
+  end
 
   def create
     user = User.new(
@@ -8,9 +12,10 @@ class UsersController < ApplicationController
       password_confirmation: params[:password_confirmation],
     )
     if user.save
-      render json: { message: "User created successfully" }, status: :created
+      session[:user_id] = @user.id
+      redirect_to "/"
     else
-      render json: { errors: user.errors.full_messages }, status: :bad_request
+      render :new, status: :unprocessable_entity
     end
   end
 end
