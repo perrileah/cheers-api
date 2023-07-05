@@ -4,12 +4,12 @@ one:
   brewery_id: MyString
   user_id: 1
   rating: 1
-  image: MyString
+  image_url: MyString
   comments: MyString
 
 two:
   brewery_id: MyString
   user_id: 1
   rating: 1
-  image: MyString
+  image_url: MyString
   comments: MyString

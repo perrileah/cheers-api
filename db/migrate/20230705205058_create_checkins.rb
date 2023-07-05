@@ -4,7 +4,7 @@ class CreateCheckins < ActiveRecord::Migration[7.0]
       t.string :brewery_id
       t.integer :user_id
       t.integer :rating
-      t.string :image
+      t.string :image_url
       t.string :comments
 
       t.timestamps
