@@ -4,6 +4,11 @@ class CheckinsController < ApplicationController
     render json: @checkins
   end
 
+  def show
+    @checkin = Checkin.find_by(id: params[:id])
+    render :show
+  end
+
   def create
     @checkin = Checkin.create(
       brewery_id: params[:brewery_id],
