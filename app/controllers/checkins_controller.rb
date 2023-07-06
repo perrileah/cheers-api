@@ -5,7 +5,6 @@ class CheckinsController < ApplicationController
   end
 
   def create
-    if current_user
     @checkin = Checkin.create(
       brewery_id: params[:brewery_id],
       user_id: params[:user_id],
