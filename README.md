@@ -2,12 +2,12 @@
 
 # Minimum Viable Product
 
-- Allow users to see all breweries
+- Allow users to see all breweries (complete)
 - Allow users to see individual breweries
-- Allow users to create a checkin
-- Allow users to see individual checkins
-- Allow users to update a checkin 
-- Allow users to delete a checkin 
+- Allow users to create a checkin (complete)
+- Allow users to see individual checkins (complete)
+- Allow users to update a checkin (complete)
+- Allow users to delete a checkin (complete)
 - Allow users to sign up 
 - Allow users to login and logout
 
