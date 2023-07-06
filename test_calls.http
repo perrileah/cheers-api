@@ -9,10 +9,10 @@ Content-Type: application/json
 
 {
   "brewery_id": "145870",
-  "user_id": 2,
+  "user_id": 1,
   "rating": 5,
   "image_url": "image_url",
-  "comments": "wow!"
+  "comments": "yummy!"
 }
 
 ###

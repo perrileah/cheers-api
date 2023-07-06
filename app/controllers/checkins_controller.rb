@@ -5,7 +5,7 @@ class CheckinsController < ApplicationController
   end
 
   def create
-    @checkin = Checkin.create(
+    @checkin = Checkin.create!(
       brewery_id: params[:brewery_id],
       user_id: params[:user_id],
       rating: params[:rating],
