@@ -8,7 +8,7 @@
 - Allow users to see individual checkins (complete)
 - Allow users to update a checkin (complete)
 - Allow users to delete a checkin (complete)
-- Allow users to sign up 
+- Allow users to sign up (complete)
 - Allow users to login and logout
 
 # Additional Features
