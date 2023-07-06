@@ -1,4 +1,4 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3LCJleHAiOjE2ODg1ODY2MzF9.4AflcNfjfjgcznivoEZqrJsaHaza1mFO0YyfKkQx_Go
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3LCJleHAiOjE2ODg3MzY3MjV9.xu6fYcrio5tqYq6FdBXtz-60Do09QxbDHX5R7asbuX4
 
 GET http://localhost:3000/checkins.json 
 
@@ -11,7 +11,7 @@ Content-Type: application/json
   "brewery_id": "145870",
   "user_id": 2,
   "rating": 5,
-  "image": "image_url",
+  "image_url": "image_url",
   "comments": "such great beer!"
 }
 
@@ -45,3 +45,15 @@ Content-Type: application/json
   "password": "test",
   "password_confirmation": "test"
 }
+
+###
+
+# POST http://localhost:3000/users.json
+# Content-Type: application/json
+
+# {
+#   "name": "Buster",
+#   "email": "Buster@test.com",
+#   "password": "bark",
+#   "password_confirmation": "bark"
+# }
