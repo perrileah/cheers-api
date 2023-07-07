@@ -26,8 +26,10 @@ Technologies used:
 
 # Additional Features
 
+- Mapbox external API for brewery geocoding
 - Star rating functionality for checkins
 - A user can filter breweries by city, state or zip code
+- A user can search for breweries by city, state or zip code
 - An admin can create a brewery
 - An admin can create categories for type of brewery
 - Facebook sharing integration
