@@ -4,6 +4,10 @@ GET http://localhost:3000/checkins.json
 
 ###
 
+GET http://localhost:3000/breweries.json 
+
+###
+
 POST http://localhost:3000/breweries.json 
 Content-Type: application/json
 
@@ -15,7 +19,8 @@ Content-Type: application/json
   "zip": 60030,
   "tap_list": "https://www.lightthelampbrewery.com/general-5",
   "website_url": "https://www.lightthelampbrewery.com/",
-  "longitude": ""
+  "latitude": "42.3441764",
+  "longitude": "-88.0438977",
 }
 
 ###

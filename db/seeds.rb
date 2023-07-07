@@ -1,12 +1,12 @@
-require "rest-client"
+# require "rest-client"
 
-def brewery_dataset
-  breweries = HTTP.get("https://api.openbrewerydb.org/v1/breweries?by_state=iowa")
-  data = JSON.parse(breweries.body)
-  data.each do |s|
-    Brewery.create(name: s["name"], address: s["address_1"], city: s["city"], state: s["state"], zip: s["postal_code"], website_url: s["website_url"], longitude: s["longitude"], latitude: s["latitude"])
-  end
-end
+# def brewery_dataset
+#   breweries = HTTP.get("https://api.openbrewerydb.org/v1/breweries?by_state=iowa")
+#   data = JSON.parse(breweries.body)
+#   data.each do |s|
+#     Brewery.create(name: s["name"], address: s["address_1"], city: s["city"], state: s["state"], zip: s["postal_code"], website_url: s["website_url"], longitude: s["longitude"], latitude: s["latitude"])
+#   end
+# end
 
 brewery_dataset()
 

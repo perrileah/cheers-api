@@ -7,7 +7,7 @@ Cheers! is an app that allows users to find, check-in and rank craft breweries. 
 Technologies used:
 
 - Ruby on Rails backend
-- PostgreSQL database seeded from Open Brewery DB external API
+- PostgreSQL database seeded from Open Brewery DB external API using rest-client gem
 - Mapbox external API for brewery geocoding
 - API authentication using bcrypt gem file and jwt storage
 - React.js frontend
