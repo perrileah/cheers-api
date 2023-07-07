@@ -4,15 +4,18 @@ GET http://localhost:3000/checkins.json
 
 ###
 
-POST http://localhost:3000/checkins.json 
+POST http://localhost:3000/breweries.json 
 Content-Type: application/json
 
 {
-  "brewery_id": "145870",
-  "user_id": 1,
-  "rating": 5,
-  "image_url": "image_url",
-  "comments": "yummy!"
+  "name": "Light the Lamp Brewery",
+  "address": "2 S. Lake Street",
+  "city": "Grayslake",
+  "state": "Illinois",
+  "zip": 60030,
+  "tap_list": "https://www.lightthelampbrewery.com/general-5",
+  "website_url": "https://www.lightthelampbrewery.com/",
+  "longitude": ""
 }
 
 ###

@@ -1,2 +1,9 @@
-json.extract! brewery, :id, :created_at, :updated_at
-json.url brewery_url(brewery, format: :json)
+json.name brewery.name
+json.address brewery.address
+json.city brewery.city
+json.state brewery.state
+json.zip brewery.zip
+json.tap_list brewery.tap_list
+json.website_url brewery.website_url
+json.longitude brewery.longitude
+json.latitude brewery.latitude

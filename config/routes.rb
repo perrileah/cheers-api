@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   get "/breweries" => "breweries#index"
   get "/breweries/:id" => "breweries#show"
+  post "/breweries" => "breweries#create"
+  patch "/breweries/:id" => "breweries#update"
+  delete "/breweries/:id" => "breweries#destroy"
 
   get "/signup" => "users#new"
   post "/users" => "users#create"
