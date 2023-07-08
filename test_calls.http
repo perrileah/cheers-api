@@ -1,4 +1,4 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3LCJleHAiOjE2ODg3MzY3MjV9.xu6fYcrio5tqYq6FdBXtz-60Do09QxbDHX5R7asbuX4
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3LCJleHAiOjE2ODg5MjE5Njd9.Kn0Y1vPpp1JEswQCLERP3JwgYIN5VZRfta-DU0dpKLk
 
 GET http://localhost:3000/checkins.json 
 
@@ -9,7 +9,7 @@ GET http://localhost:3000/breweries.json
 ###
 
 
-PATCH http://localhost:3000/checkins/4.json 
+PATCH http://localhost:3000/checkins/8.json 
 Content-Type: application/json
 
 {
@@ -24,9 +24,9 @@ Content-Type: application/json
 {
   "brewery_id": "873905",
   "user_id": 3,
-  "rating": 3,
+  "rating": 5,
   "image_url": "image_url",
-  "comments": "omg so good"
+  "comments": "omgggggg"
 }
 
 ###
@@ -44,6 +44,15 @@ Content-Type: application/json
   "website_url": "https://www.lightthelampbrewery.com/",
   "latitude": "42.3441764",
   "longitude": "-88.0438977"
+}
+
+###
+
+PATCH http://localhost:3000/breweries/203.json 
+Content-Type: application/json
+
+{
+  "city": "Round Lake"
 }
 
 ###
@@ -70,9 +79,15 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/checkins/4.json 
+DELETE http://localhost:3000/checkins/8.json 
 Content-Type: application/json
 
+###
+
+DELETE http://localhost:3000/breweries/203.json 
+Content-Type: application/json
+
+###
 
 # POST http://localhost:3000/users.json
 # Content-Type: application/json
