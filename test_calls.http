@@ -8,6 +8,29 @@ GET http://localhost:3000/breweries.json
 
 ###
 
+
+PATCH http://localhost:3000/checkins/4.json 
+Content-Type: application/json
+
+{
+  "comments": "wasn't a fan of this brewery"
+}
+
+### 
+
+POST http://localhost:3000/checkins.json 
+Content-Type: application/json
+
+{
+  "brewery_id": "873905",
+  "user_id": 3,
+  "rating": 3,
+  "image_url": "image_url",
+  "comments": "omg so good"
+}
+
+###
+
 POST http://localhost:3000/breweries.json 
 Content-Type: application/json
 
@@ -20,19 +43,10 @@ Content-Type: application/json
   "tap_list": "https://www.lightthelampbrewery.com/general-5",
   "website_url": "https://www.lightthelampbrewery.com/",
   "latitude": "42.3441764",
-  "longitude": "-88.0438977",
+  "longitude": "-88.0438977"
 }
 
 ###
-
-PATCH http://localhost:3000/checkins/4.json 
-Content-Type: application/json
-
-{
-  "comments": "wasn't a fan of this brewery"
-}
-
-### 
 
 POST http://localhost:3000/sessions.json
 Content-Type: application/json

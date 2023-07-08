@@ -5,6 +5,6 @@ json.city brewery.city
 json.state brewery.state
 json.zip brewery.zip
 json.tap_list brewery.tap_list
-json.website_url brewery.website_url
-json.latitude brewery.latitude
 json.longitude brewery.longitude
+json.latitude brewery.latitude
+json.website_url brewery.website_url
