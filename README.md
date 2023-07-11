@@ -16,11 +16,11 @@ Technologies used:
 # Minimum Viable Product
 
 - Allow users to see all breweries (complete)
-- Allow users to see individual breweries
-- Allow users to create a checkin (complete)
+- Allow users to see individual breweries (complete)
+- Allow users to create, update and destroy a brewery (complete)
+- Allow users to see all checkins (complete)
 - Allow users to see individual checkins (complete)
-- Allow users to update a checkin (complete)
-- Allow users to delete a checkin (complete)
+- Allow users to create, update and destroy a checkin (complete)
 - Allow users to sign up (complete)
 - Allow users to login and logout
 
@@ -30,7 +30,6 @@ Technologies used:
 - Star rating functionality for checkins
 - A user can filter breweries by city, state or zip code
 - A user can search for breweries by city, state or zip code
-- An admin can create a brewery
 - An admin can create categories for type of brewery
 - Facebook sharing integration
 - Tests
