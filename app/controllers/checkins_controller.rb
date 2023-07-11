@@ -23,11 +23,11 @@ class CheckinsController < ApplicationController
   def update
     @checkin = Checkin.find_by(id: params[:id])
     @checkin.update(
-      brewery_id: params[:brewery_id],
-      user_id: params[:user_id],
-      rating: params[:rating],
-      image_url: params[:image_url],
-      comments: params[:comments],
+      brewery_id: params["brewery_id"] || @checkin.brewery_id,
+      user_id: params["user_id"] || @checkin.user_id,
+      rating: params["rating"] || @checkin.rating,
+      image_url: params["image_url"] || @checkin.image_url,
+      comments: params["comments"] || @checkin.comments,
     )
     render :show
   end
