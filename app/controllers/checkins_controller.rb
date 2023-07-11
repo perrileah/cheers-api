@@ -22,7 +22,7 @@ class CheckinsController < ApplicationController
 
   def update
     @checkin = Checkin.find_by(id: params[:id])
-    @checkin.update!(
+    @checkin.update(
       brewery_id: params[:brewery_id],
       user_id: params[:user_id],
       rating: params[:rating],

@@ -1,4 +1,4 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3LCJleHAiOjE2ODg5MjE5Njd9.Kn0Y1vPpp1JEswQCLERP3JwgYIN5VZRfta-DU0dpKLk
+@jwt = yJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5LCJleHAiOjE2ODkxNzQ1NDl9.bNSluHwB__Mn5CIf5RKAwBRUm8_SaxIRENrWLSv5FBM
 
 GET http://localhost:3000/checkins.json 
 
@@ -9,7 +9,7 @@ GET http://localhost:3000/breweries.json
 ###
 
 
-PATCH http://localhost:3000/checkins/9.json 
+PATCH http://localhost:3000/checkins/10.json 
 Content-Type: application/json
 
 {
@@ -22,11 +22,11 @@ POST http://localhost:3000/checkins.json
 Content-Type: application/json
 
 {
-  "brewery_id": "9348209",
-  "user_id": 3,
-  "rating": 1,
+  "brewery_id": "1834790",
+  "user_id": 6,
+  "rating": 3,
   "image_url": "image_url",
-  "comments": "not great"
+  "comments": "so/so"
 }
 
 ###
@@ -61,8 +61,8 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "leah@example.com",
-  "password": "password"
+  "email": "Buster@test.com",
+  "password": "bark"
 }
 
 ###

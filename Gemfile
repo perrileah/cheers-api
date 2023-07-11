@@ -14,6 +14,8 @@ gem "rack-cors"
 
 gem "rest-client"
 
+gem 'mapbox-gl-rails'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
