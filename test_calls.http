@@ -48,11 +48,11 @@ Content-Type: application/json
 
 ###
 
-PATCH http://localhost:3000/breweries/205.json 
+PATCH http://localhost:3000/breweries/204.json 
 Content-Type: application/json
 
 {
-  "city": "Round Lake"
+  "city": "Grayslake"
 }
 
 ###

@@ -27,15 +27,15 @@ class BreweriesController < ApplicationController
   def update
     @brewery = Brewery.find_by(id: params[:id])
     @brewery.update(
-      name: params[:name],
-      address: params[:address],
-      city: params[:city],
-      state: params[:state],
-      zip: params[:zip],
-      tap_list: params[:tap_list],
-      longitude: params[:longitude],
-      latitude: params[:latitude],
-      website_url: params[:website_url],
+      name: params["name"] || @brewery.name,
+      address: params["address"] || @brewery.address,
+      city: params["city"] || @brewery.city,
+      state: params["state"] || @brewery.state,
+      zip: params["zip"] || @brewery.zip,
+      tap_list: params["tap_list"] || @brewery.tap_list,
+      longitude: params["longitude"] || @brewery.longitude,
+      latitude: params["latitude"] || @brewery.latitude,
+      website_url: params["website_url"] || @brewery.website_url,
     )
     render :show
   end
