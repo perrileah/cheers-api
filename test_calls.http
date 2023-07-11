@@ -9,11 +9,11 @@ GET http://localhost:3000/breweries.json
 ###
 
 
-PATCH http://localhost:3000/checkins/8.json 
+PATCH http://localhost:3000/checkins/9.json 
 Content-Type: application/json
 
 {
-  "comments": "wasn't a fan of this brewery"
+  "comments": "just kidding, i loved it"
 }
 
 ### 
@@ -22,11 +22,11 @@ POST http://localhost:3000/checkins.json
 Content-Type: application/json
 
 {
-  "brewery_id": "873905",
+  "brewery_id": "9348209",
   "user_id": 3,
-  "rating": 5,
+  "rating": 1,
   "image_url": "image_url",
-  "comments": "omgggggg"
+  "comments": "not great"
 }
 
 ###
@@ -48,7 +48,7 @@ Content-Type: application/json
 
 ###
 
-PATCH http://localhost:3000/breweries/203.json 
+PATCH http://localhost:3000/breweries/205.json 
 Content-Type: application/json
 
 {
@@ -61,8 +61,8 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "Blah@test.com",
-  "password": "test"
+  "email": "leah@example.com",
+  "password": "password"
 }
 
 ###
@@ -84,7 +84,12 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/breweries/203.json 
+DELETE http://localhost:3000/breweries/205.json 
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:3000/users/3.json 
 Content-Type: application/json
 
 ###

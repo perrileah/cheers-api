@@ -7,6 +7,9 @@ Rails.application.routes.draw do
 
   get "/signup" => "users#new"
   post "/users" => "users#create"
+  patch "/users/:id" => "users#update"
+  delete "/users/:id" => "users#destroy"
+  
 
   get "/checkins" => "checkins#index"
   post "/checkins" => "checkins#create"
