@@ -5,14 +5,18 @@ class CheckinsController < ApplicationController
   end
 
   def create
-    @checkin = Checkin.create!(
+    @checkin = Checkin.new(
       brewery_id: params[:brewery_id],
       user_id: params[:user_id],
       rating: params[:rating],
       image_url: params[:image_url],
       comments: params[:comments],
     )
-    render :show
+    if @checkin.save
+      render :show
+    else
+      render json: { errors: @checkin.errors.full_messages }
+    end
   end
 
   def show
@@ -29,7 +33,11 @@ class CheckinsController < ApplicationController
       image_url: params["image_url"] || @checkin.image_url,
       comments: params["comments"] || @checkin.comments,
     )
-    render :show
+    if @checkin.save
+      render :show
+    else
+      render json: { errors: @checkin.errors.full_messages }
+    end
   end
 
   def destroy
