@@ -1,5 +1,6 @@
 class Checkin < ApplicationRecord
   belongs_to :user
+  belongs_to :brewery
   validates :brewery_id, presence: true
   validates :user_id, presence: true
   validates :rating, presence: true

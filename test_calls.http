@@ -24,7 +24,7 @@ Content-Type: application/json
 {
   "brewery_id": "1834790",
   "user_id": 6,
-  "rating": 3,
+  "rating": ,
   "image_url": "image_url",
   "comments": "so/so"
 }
