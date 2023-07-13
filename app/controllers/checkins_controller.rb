@@ -15,7 +15,7 @@ class CheckinsController < ApplicationController
     if @checkin.save
       render :show
     else
-      render json: { errors: @checkin.errors.full_messages }, status: :unproccessable_entity
+      render json: { errors: @checkin.errors.full_messages }, status: :unprocessable_entity
     end
   end
 

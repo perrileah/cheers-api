@@ -22,9 +22,9 @@ POST http://localhost:3000/checkins.json
 Content-Type: application/json
 
 {
-  "brewery_id": "1834790",
+  "brewery_id": 1,
   "user_id": 6,
-  "rating": ,
+  "rating": 4,
   "image_url": "image_url",
   "comments": "so/so"
 }
