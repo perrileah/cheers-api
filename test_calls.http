@@ -71,8 +71,8 @@ POST http://localhost:3000/users.json
 Content-Type: application/json
 
 {
-  "name": "Test",
-  "email": "Blah@test.com",
+  "name": "Let's See",
+  "email": "check@test.com",
   "password": "test",
   "password_confirmation": "test"
 }

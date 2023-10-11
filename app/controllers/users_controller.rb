@@ -1,11 +1,6 @@
 class UsersController < ApplicationController
-  def new
-    @user = User.new
-    render template: "users/new"
-  end
-
   def create
-    @user = User.new(
+    @user = User.create(
       name: params[:user][:name],
       email: params[:user][:email],
       password: params[:user][:password],
