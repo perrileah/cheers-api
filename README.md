@@ -2,6 +2,8 @@
 
 # Cheers! API
 
+<img width="1256" alt="Screenshot 2024-01-20 at 7 19 45 PM" src="https://github.com/perrileah/cheers-api/assets/125906074/aa653159-d98c-4765-8d98-b6c9129b80e5">
+
 Cheers! is an app that allows users to find, check-in and rank craft breweries. As a craft beer lover and manager at a brewery myself, I wanted to create an app similar to Untappd, the popular beer-ranking platform, but specific to breweries. I had a lot of fun creating this application while learning new web dev technologies and techniques.
 
 Technologies used:
@@ -22,7 +24,7 @@ Technologies used:
 - Allow users to see individual checkins (complete)
 - Allow users to create, update and destroy a checkin (complete)
 - Allow users to sign up (complete)
-- Allow users to login and logout
+- Allow users to login and logout (complete)
 
 # Additional Features
 
