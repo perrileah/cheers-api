@@ -1,5 +1,7 @@
 # README
 
+I created this project in the summer of 2023. It is not currently being maintained but was a good learning project as an intro to geocoding with Mapbox.
+
 # Cheers! API
 
 <img width="1256" alt="Screenshot 2024-01-20 at 7 19 45 PM" src="https://github.com/perrileah/cheers-api/assets/125906074/aa653159-d98c-4765-8d98-b6c9129b80e5">
