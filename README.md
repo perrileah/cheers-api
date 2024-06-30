@@ -14,6 +14,10 @@ Cheers! is an app that allows users to find, check-in and rank craft breweries. 
 - Frontend multi-page application built with npm, React.js featuring conditional rendering for login/logout, dynamic routing using React-Router-Dom package and a personalized Start Bootstrap CSS theme
 - Mapbox GL JS Javascript library for brewery geocoding with a custom map
 
+## Usage
+
+To start a local server on http://localhost:3000, run `rails server`.
+
 # Minimum Viable Product
 
 - Allow users to see all breweries (complete)
